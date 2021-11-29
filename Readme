@@ -1,0 +1,8 @@
+- 5 tableaux
+-un bouton pour génèrer l'hisoire
+- un champs type text pour mettre son nom
+- le clic utilise une entrée de chaque tableau au hasard
+- l'hisoire reprend le nom de l'input
+- utiliser des switch / case pour les cas particulier (mot qui vont pas ensemble)
+- Ne pas remplacer l'histoire prècédente
+-

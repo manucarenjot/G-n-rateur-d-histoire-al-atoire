@@ -27,7 +27,7 @@ function generer(){
 
 
 
-    newHistory.innerHTML =   nom[randomNom] + ' et '+ nom2[randomNom] + ' '+ verbes[randomVerbes] + ' avec ' + objet[randomObjet] + ' alors qu il fait ' + temperatures[randomTemperatures] + ' à ' + lieux[randomLieux]+ ' ' + champs.value;
+    newHistory.innerHTML =  champs.value + ' '+  nom[randomNom] + ' et '+ nom2[randomNom] + ' '+ verbes[randomVerbes] + ' avec ' + objet[randomObjet] + ' alors qu il fait ' + temperatures[randomTemperatures] + ' à ' + lieux[randomLieux];
 }
 
 generateur.addEventListener("click", function (e){

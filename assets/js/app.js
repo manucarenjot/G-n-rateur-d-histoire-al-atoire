@@ -7,7 +7,7 @@ const history = document.getElementById('history');
 let nom = ['jocelyn', 'Jackie', 'Django', 'Paprika', 'Eric Zemmour'];
 let nom2 = ['Ada', 'Jean-Marie Bigard', 'pikachu']
 let objet = ['un crayon', 'une souris', 'un ordinateur', 'une batte de baseball', ' un sac à dos', 'une raclette'];
-let verbes = ['ont', 'rentre', 'font', 'cours', 'parle', 'utilisent', 'frappes', 'Nagent'];
+let verbes = ['ont', 'rentre', 'font', 'cours', 'parle', 'utilisent', 'se frappes', 'Nagent'];
 let temperatures = ['-8000°', '7°', '59°', '1°', '-15°'];
 let lieux = [' Yaoundé ', ' Groenland', 'Ogoudou', 'Bourg Palestine', 'Zereth Mortis'];
 
@@ -30,7 +30,7 @@ function generer(){
     newHistory.innerHTML =  champs.value + ' '+  nom[randomNom] + ' et '+ nom2[randomNom2] + ' '+ verbes[randomVerbes] + ' avec ' + objet[randomObjet] + ' alors qu il fait ' + temperatures[randomTemperatures] + ' à ' + lieux[randomLieux];
 }
 
-generateur.addEventListener("click", function (e){
+generateur.addEventListener("click", function(){
     generer()
 })
 

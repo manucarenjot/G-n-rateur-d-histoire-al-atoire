@@ -2,7 +2,7 @@ const champs = document.getElementById('champs');
 const generateur = document.querySelector('button');
 const history = document.getElementById('history');
 
-console.log(champs.value)
+
 
 let nom = ['jocelyn', 'Jackie', 'Django', 'Paprika', 'Ada'];
 let objet = ['crayon', 'souris', 'ordinateur', 'batte de baseball', 'sac à dos'];
@@ -30,6 +30,7 @@ function generer(){
 
 generateur.addEventListener("click", function (e){
     generer()
+    console.log(champs.value)
 })
 
 

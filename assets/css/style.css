@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: #6666ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+}
+
+#history {
+    margin: 3em;
+    width: 50%;
+    height: auto;
+    background-color: #de9494;
+    border-radius: 20px;
+    border: inset 7px #ef5555;
+}
+
+p {
+    margin: 1em;
+}

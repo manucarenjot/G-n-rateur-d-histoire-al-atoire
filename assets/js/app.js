@@ -4,10 +4,10 @@ const history = document.getElementById('history');
 
 
 
-let nom = ['jocelyn', 'Jackie', 'Django', 'Paprika', 'Eric Zemmour'];
+let nom = ['jocelyn Armel', 'Jackie', 'Django', 'Paprika', 'Eric Zemmour'];
 let nom2 = ['Ada', 'Jean-Marie Bigard', 'pikachu', 'Dieudonné']
 let objet = ['un crayon', 'une souris', 'un ordinateur', 'une batte de baseball', ' un sac à dos', 'une raclette'];
-let verbes = ['ont', 'rentre', 'font', 'cours', 'parle', 'utilisent', 'se frappes', 'Nagent'];
+let verbes = ['ont', 'rentre', 'font', 'cours', 'parle', 'utilisent', 'se frappes', 'Nagent', 'sont bien sappé'];
 let temperatures = ['-8000°', '7°', '59°', '1°', '-15°'];
 let lieux = [' Yaoundé ', ' Groenland', 'Ogoudou', 'Bourg Palestine', 'Zereth Mortis'];
 
